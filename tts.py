@@ -1,19 +1,22 @@
-# tts.py
-# Text-to-speech utilities using pyttsx3
-
 import pyttsx3
 import logging
+import time
 
-# Initialize TTS engine once for performance
 tts_engine = pyttsx3.init()
-tts_engine.setProperty('rate', 150)  # Set slower speech rate (optional)
+tts_engine.setProperty('rate', 150)  # Moderate slow speed
+tts_engine.setProperty('volume', 1.0)  # Full volume
 
 def speak(text):
     """
     Print and speak the text aloud.
     Also logs the message for record.
     """
-    print("AI:", text)
-    tts_engine.say(text)
-    tts_engine.runAndWait()
-    logging.info(f"AI response spoken: {text}")
+    try:
+        print("AI:", text)
+        tts_engine.say(text)
+        tts_engine.runAndWait()
+        time.sleep(0.2)  # Small pause to ensure speech finishes
+        logging.info(f"AI response spoken: {text}")
+    except Exception as e:
+        logging.error(f"TTS error: {e}")
+        print(f"TTS Error: {e}")

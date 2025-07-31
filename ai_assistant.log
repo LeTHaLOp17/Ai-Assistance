@@ -1,0 +1,15 @@
+2025-07-31 17:18:39 - INFO - Session started.
+2025-07-31 17:18:46 - INFO - User input: hello
+2025-07-31 17:18:47 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-31 17:18:47 - INFO - AI response received: Hello! How can I assist you today?
+2025-07-31 17:18:50 - INFO - AI response spoken: Hello! How can I assist you today?
+2025-07-31 17:18:58 - INFO - User input: what is tajmahal
+2025-07-31 17:19:00 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-31 17:19:00 - INFO - AI response received: The Taj Mahal is a famous ivory-white marble mausoleum located in Agra, India. It was built by Mughal Emperor Shah Jahan in memory of his beloved wife, Mumtaz Mahal. The Taj Mahal is considered one of the most beautiful architectural wonders in the world and is a UNESCO World Heritage Site.
+2025-07-31 17:19:00 - INFO - AI response spoken: The Taj Mahal is a famous ivory-white marble mausoleum located in Agra, India. It was built by Mughal Emperor Shah Jahan in memory of his beloved wife, Mumtaz Mahal. The Taj Mahal is considered one of the most beautiful architectural wonders in the world and is a UNESCO World Heritage Site.
+2025-07-31 17:19:20 - INFO - User input: quite
+2025-07-31 17:19:21 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-31 17:19:21 - INFO - AI response received: Hello! How can I assist you today?
+2025-07-31 17:19:21 - INFO - AI response spoken: Hello! How can I assist you today?
+2025-07-31 17:19:29 - INFO - User input: quit
+2025-07-31 17:19:29 - INFO - User exited the assistant.

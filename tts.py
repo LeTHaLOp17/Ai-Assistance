@@ -3,8 +3,9 @@ import logging
 import time
 
 tts_engine = pyttsx3.init()
-tts_engine.setProperty('rate', 150)  # Moderate slow speed
+# tts_engine.setProperty('rate', 150)  # Moderate slow speed
 tts_engine.setProperty('volume', 1.0)  # Full volume
+tts_engine.setProperty('voice', 'com.apple.eloquence.en-GB.Sandy')
 
 def speak(text):
     """

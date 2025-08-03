@@ -24,3 +24,14 @@ def save_memory(memory):
     """
     with open(MEMORY_FILE, "w") as f:
         json.dump(memory, f, indent=4)
+        
+def load_prefs():
+    if os.path.exists("preferences.json"):
+        with open("preferences.json", "r") as f:
+            return json.load(f)
+    return {}
+
+def save_prefs(prefs):
+    with open("preferences.json", "w") as f:
+        json.dump(prefs, f, indent=4)
+

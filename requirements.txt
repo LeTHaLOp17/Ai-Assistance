@@ -1,0 +1,4 @@
+google-genai
+pyttsx3
+python-dotenv
+apscheduler

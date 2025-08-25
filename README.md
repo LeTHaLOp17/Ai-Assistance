@@ -1,7 +1,3 @@
-Here is a more professional and polished version of the README text for your Ai-Assistance GitHub project:
-
-***
-
 # Ai-Assistance
 
 ## Overview  
